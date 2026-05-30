@@ -1,4 +1,4 @@
-body {margin: 0px;}
+body {margin: 0;}
 
 /* ############ 첫번째 페이지 ############ */
 
@@ -77,12 +77,15 @@ body {margin: 0px;}
     background-color: lightblue;
 }
 
-#chefs_pgh {
-    width: 500px; margin-right: 30px;
-    display: inline-block;  overflow: hidden;
-}
-
 #chefs_pgh > span {
     font-size: 20px; font-weight: bold; text-decoration: underline;
 }
+
+#chefs_pgh {
+    width: 500px; margin-right: 30px;
+    display: inline-block;  overflow: hidden;
+    margin-bottom: 150px;
+}
+
+
 
