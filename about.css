@@ -1,40 +1,57 @@
-body {margin: 0;}
+body {
+    margin: 0;
+}
 
-#About {margin-top: 30px;}
+#About {
+    margin-top: 30px;
+}
 
-#About > div {margin-left: auto; margin-right: auto;}
+#About > div {
+    margin-left: auto; margin-right: auto;
+}
 
-#top {width: 1000px; height: 500px;}
+#top {
+    width: 1000px; height: 500px;
+}
 
-#chef_about, #right1, #explain{float: left;}
+#chef_about, #right1, #explain{
+    float: left;
+}
 
 #explain{
     width: 250px; height: 250px; 
     display: inline-block; background-color: aquamarine;
 }
 
-
-
-
 .explain_pgh {
     width: 210px; height: 210px;
     margin: 20px;
 }
 
-.explain_pgh > span {font-weight: bold; font-size: 20px;}
+.explain_pgh > span {
+    font-weight: bold; font-size: 20px;
+}
 
 
+#box_all { 
+    width: 1000px; height: 500px;
+}
 
+#boxs {
+    width: 750px; height: 500px; float: left;
+}
 
-#box_all { width: 1000px; height: 500px;}
+#boxs > div, #long_box {
+    float:left;
+}
 
-#boxs {width: 750px; height: 500px; float: left;}
+#boxs > div:nth-child(2n-1) { 
+    background-color: #ecfdaf;
+}
 
-#boxs > div, #long_box {float:left;}
-
-#boxs > div:nth-child(2n-1) { background-color: #ecfdaf;}
-
-#boxs > div:nth-child(2n) { background-color: #ebc6b1;}
+#boxs > div:nth-child(2n) { 
+    background-color: #ebc6b1;
+}
 
 #long_box {
     width: 250px; height: 500px;
