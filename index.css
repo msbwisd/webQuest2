@@ -33,7 +33,6 @@ body {margin: 0;}
     text-align: center;
 }
 
-/* ############### 두번째 페이지 ############### */
 
 #icon_title {
     margin-top: 30px; margin-bottom: 30px;
@@ -53,11 +52,11 @@ body {margin: 0;}
 #icon_box {
     width: 1240px;  background: #fdcbc8;
     margin-left: auto; margin-right: auto;
-    overflow: hidden;
 }
 
 #icon_box>p {
-    float: left; margin: 30px; width: 250px;
+    margin: 30px; width: 250px; 
+    display: inline-block;
     font-size: 14px; text-align: center;
 }
 
