@@ -17,12 +17,12 @@ body>div {
     float: left;
 }
 
-.top>.chef_about>.explain{
+/* .top>.chef_about>.explain{
     width: 250px; 
     height: 250px;
-    /* display: inline-block; */
-    background-color: aqua;
-}
+    display: inline-block;
+     background-color: aqua;
+} */
 
 .box_all { 
     width: 1000px;
