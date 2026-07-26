@@ -13,7 +13,17 @@ body>div {
     overflow: hidden;
 }
 
-.top>.chef_about, .top>.right1{
+.top>.chef_about{
+    float: left;
+}
+
+.top>.side_boxs {
+    width: 250px;
+    height: 500px;
+    float: left;
+}
+
+.top>.side_boxs>.side_box1, .top>.side_boxs>.side_box2{
     float: left;
 }
 
@@ -21,7 +31,7 @@ body>div {
     width: 250px; 
     height: 250px;
     display: inline-block;
-     background-color: aqua;
+    background-color: aqua;
 } */
 
 .box_all { 
@@ -31,11 +41,13 @@ body>div {
 
 .box_all>.boxs {
     width: 750px; 
-    height: 500px; 
-    float: left;
+    height: 500px;
+    float: left; 
 }
 
-.box_all>.boxs>.box, .box_all>.long_box {
+.box_all>.boxs>.box{
+    width: 250px;
+    height: 250px;
     float:left;
 }
 
@@ -47,21 +59,6 @@ body>div {
     background-color: #ebc6b1;
 }
 
-.box_all>.long_box {
-    width: 250px; 
-    height: 500px;
-    background-color: #d5e877;
-}
-
-.box_all>.long_box > p {
-    margin: 20px;
-}
-
-.box_all>.long_box > p > span {
-    font-weight: bold; 
-    font-size: 20px;
-}
-
 .box_all>.boxs>.box>.explain_pgh {
     width: 210px; 
     height: 210px;
@@ -69,6 +66,22 @@ body>div {
 }
 
 .box_all>.boxs>.box>.explain_pgh>span {
+    font-weight: bold; 
+    font-size: 20px;
+}
+
+.box_all>.long_box {
+    width: 250px; 
+    height: 500px;
+    background-color: #d5e877;
+    float:left;
+}
+
+.box_all>.long_box > p {
+    margin: 20px;
+}
+
+.box_all>.long_box > p > span {
     font-weight: bold; 
     font-size: 20px;
 }
