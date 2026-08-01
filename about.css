@@ -10,11 +10,14 @@ body>div {
     width: 1000px; 
     height: 500px;
     margin-top: 30px;
-    overflow: hidden;
 }
 
 .top>.chef_about{
     float: left;
+}
+
+.top>.chef_about>.chef_img{
+    display: block;
 }
 
 .top>.side_boxs {
@@ -48,7 +51,7 @@ body>div {
 .box_all>.boxs>.box{
     width: 250px;
     height: 250px;
-    float:left;
+    float: left;
 }
 
 .box_all>.boxs > div:nth-child(2n-1) { 
