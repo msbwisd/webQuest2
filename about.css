@@ -13,11 +13,25 @@ body>div {
 }
 
 .top>.chef_about{
+    width: 750px;
+    height: 500px;
+    background-image: url('image/chef_about.png');
     float: left;
 }
 
-.top>.chef_about>.chef_img{
-    display: block;
+.top>.chef_about>.explain{
+    width: 250px; 
+    height: 250px;
+    background-color: rgba(47, 249, 249, 0.715);
+    margin-top: 250px;
+}
+
+.top>.chef_about>.explain>.explain_pgh,
+.box_all>.boxs>.box>.explain_pgh{
+    width: 210px; 
+    height: 210px;
+    padding: 20px;
+    margin: 0;
 }
 
 .top>.side_boxs {
@@ -27,15 +41,8 @@ body>div {
 }
 
 .top>.side_boxs>.side_box1, .top>.side_boxs>.side_box2{
-    float: left;
+    display: block;
 }
-
-/* .top>.chef_about>.explain{
-    width: 250px; 
-    height: 250px;
-    display: inline-block;
-    background-color: aqua;
-} */
 
 .box_all { 
     width: 1000px;
@@ -62,29 +69,23 @@ body>div {
     background-color: #ebc6b1;
 }
 
-.box_all>.boxs>.box>.explain_pgh {
-    width: 210px; 
-    height: 210px;
-    margin: 20px;
-}
-
-.box_all>.boxs>.box>.explain_pgh>span {
-    font-weight: bold; 
-    font-size: 20px;
-}
-
 .box_all>.long_box {
     width: 250px; 
     height: 500px;
     background-color: #d5e877;
-    float:left;
+    float: left;
 }
 
-.box_all>.long_box > p {
-    margin: 20px;
+.box_all>.long_box >.explain_pgh {
+    width: 210px;
+    height: 460px;
+    padding: 20px;
+    margin: 0;
 }
 
-.box_all>.long_box > p > span {
+.top>.chef_about>.explain>.explain_pgh>.title,
+.box_all>.boxs>.box>.explain_pgh>.title,
+.box_all>.long_box > p >.title{
     font-weight: bold; 
     font-size: 20px;
 }
@@ -93,19 +94,16 @@ body>div {
     width: 1000px; 
     height: 40px;
     background-color: #ebece8;
-    overflow: hidden;
 }
 
 .footer>ul {
-    margin:0px; 
-    padding:0px; 
-    margin-top: 8px;
+    margin: 0px; 
+    padding: 7px 0; 
 }
 
 .footer>ul>li {
     display: inline-block;
-    margin-left: 10px; 
-    margin-right: 10px;
+    margin: 0 10px; 
 }
 
 .footer span{
