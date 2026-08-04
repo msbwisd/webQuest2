@@ -19,29 +19,15 @@ body>div {
     float: left;
 }
 
-.top>.chef_about>.explain{
-    width: 250px; 
-    height: 250px;
+.top>.chef_about>.explain_pgh_chef{
     background-color: rgba(47, 249, 249, 0.715);
     margin-top: 250px;
-}
-
-.top>.chef_about>.explain>.explain_pgh,
-.box_all>.boxs>.box>.explain_pgh{
-    width: 210px; 
-    height: 210px;
-    padding: 20px;
-    margin: 0;
 }
 
 .top>.side_boxs {
     width: 250px;
     height: 500px;
     float: left;
-}
-
-.top>.side_boxs>.side_box1, .top>.side_boxs>.side_box2{
-    display: block;
 }
 
 .box_all { 
@@ -56,8 +42,6 @@ body>div {
 }
 
 .box_all>.boxs>.box{
-    width: 250px;
-    height: 250px;
     float: left;
 }
 
@@ -76,18 +60,8 @@ body>div {
     float: left;
 }
 
-.box_all>.long_box >.explain_pgh {
-    width: 210px;
-    height: 460px;
-    padding: 20px;
-    margin: 0;
-}
-
-.top>.chef_about>.explain>.explain_pgh>.title,
-.box_all>.boxs>.box>.explain_pgh>.title,
-.box_all>.long_box > p >.title{
-    font-weight: bold; 
-    font-size: 20px;
+.box_all>.long_box >.explain_pgh_longbox {
+    height: auto;
 }
 
 .footer {
@@ -108,4 +82,20 @@ body>div {
 
 .footer span{
     color: orange;
+}
+
+.block_pgh_title{
+    font-weight: bold; 
+    font-size: 20px;
+}
+
+.to_block{
+    display: block;
+}
+
+.block_style{
+    width: 210px; 
+    height: 210px;
+    padding: 20px;
+    margin: 0;
 }
