@@ -55,7 +55,7 @@ body>div {
 
 .box_all>.long_box {
     width: 250px; 
-    height: 500px;
+    height: 100%;
     background-color: #d5e877;
     float: left;
 }
@@ -82,7 +82,10 @@ body>div {
 
 .footer span{
     color: orange;
+    font-weight: 800;
 }
+
+/* common style */
 
 .block_pgh_title{
     font-weight: bold; 
@@ -99,3 +102,4 @@ body>div {
     padding: 20px;
     margin: 0;
 }
+
